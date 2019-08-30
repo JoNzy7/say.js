@@ -8,7 +8,7 @@
 
 * Ou em casos de ser um bot publico você pode usar o seguinte comando:
 ```js
-if(!message.member.hasPermission("MANAGE_MESSAGES"));
+if(!message.member.hasPermission("MANAGE_MESSAGES")) return;
 ```
 o `MANAGE_MESSAGES` foi um exemplo, tem diversas outras flag pra você usar.
 
@@ -25,7 +25,7 @@ Hello, this is a simple version of the "say" command for discord.js
 
 * Or in case of being a public bot you can use that command:
 ```js
-if(!message.member.hasPermission("MANAGE_MESSAGES"));
+if(!message.member.hasPermission("MANAGE_MESSAGES")) return;
 ```
 `MANAGE_MESSAGES` was an example, there are several other flags for you to use.
 
